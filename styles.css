@@ -88,3 +88,19 @@ body {
         transform: translateX(0);
     }
 }
+
+/* ------------Responsive Media Queries------------- */
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+  .footer {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #imgBox img {
+    padding-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
